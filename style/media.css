@@ -1,0 +1,21 @@
+@media (max-width: 1130px) {
+  a,
+  button {
+    font-size: 1.6rem;
+  }
+
+  .logo p {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 990px) {
+  ul,
+  .buttons {
+    display: none;
+  }
+
+  .toggle {
+    display: flex;
+  }
+}

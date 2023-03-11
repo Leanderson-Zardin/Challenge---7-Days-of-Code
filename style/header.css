@@ -1,0 +1,83 @@
+header {
+  height: 10rem;
+  display: flex;
+  align-items: center;
+}
+
+a,
+button {
+  font-size: 2rem;
+  color: var(--text-color);
+}
+
+.logo p {
+  font-size: 2.3rem;
+  font-weight: 500;
+  color: var(--title-color);
+}
+
+nav,
+.nav,
+.logo,
+ul,
+.buttons,
+a {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  width: min(169.6rem, 90%);
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.nav {
+  gap: 11.9rem;
+}
+
+ul {
+  gap: 3.2rem;
+}
+
+.logo {
+  gap: .8rem
+}
+
+.buttons {
+  gap: 3rem
+}
+
+.buttons button {
+  border: none;
+  padding: 1.5rem 2.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.buttons button:first-of-type {
+  background: white;
+}
+.buttons button:last-child {
+  background: var(--principal-color);
+  color: white;
+}
+
+.toggle {
+  width: 4rem;
+  height: 4rem;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: .5rem;
+}
+.toggle.active .line{
+  background: lightblue;
+}
+
+.line{
+  width: 100%;
+  height: .5rem;
+  background: var(--principal-color);
+  border-radius: .5rem;
+}
