@@ -9,8 +9,12 @@
   }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 700px) {
   .first-section h1 {
-    font-size: 3rem;
+    font-size: 3rem !important;
+  }
+
+  .first-section p {
+    font-size: 1.6rem !important;
   }
 }
