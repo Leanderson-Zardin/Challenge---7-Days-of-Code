@@ -6,12 +6,13 @@ header {
 
 a,
 button {
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: var(--text-color);
+  font-weight: 500;
 }
 
 .logo p {
-  font-size: 2.3rem;
+  font-size: 1.8rem;
   font-weight: 500;
   color: var(--title-color);
 }

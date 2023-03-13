@@ -1,0 +1,31 @@
+/*------------------- FIRST SECTION ------------------*/
+
+.first-section {
+  text-align: center;
+  padding: 9.6rem 0rem 10.7rem;
+}
+
+.first-section .container {
+  width: min(80rem, 90%);
+  margin: 0 auto;
+}
+
+.first-section span {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--principal-color);
+  margin-bottom: 2.4rem;
+  display: block;
+}
+
+.first-section h1 {
+  font-size: 4.8rem;
+  color: var(--title-color);
+  margin-bottom: 3.6rem;
+}
+
+.first-section p {
+  font-size: 2rem;
+  color: var(--text-color);
+  line-height: 3rem;
+}
