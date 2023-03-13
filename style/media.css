@@ -7,14 +7,20 @@
   .toggle {
     display: flex;
   }
+
+  .second-section .container:first-of-type {
+    flex-direction: column;
+    text-align: center;
+    width: min(50rem, 80%);
+  }
 }
 
 @media (max-width: 700px) {
-  .first-section h1 {
-    font-size: 3rem !important;
+  .first-section .container h1 {
+    font-size: 3rem;
   }
 
-  .first-section p {
-    font-size: 1.6rem !important;
+  .first-section .container p {
+    font-size: 1.6rem;
   }
 }

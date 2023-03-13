@@ -29,3 +29,37 @@
   color: var(--text-color);
   line-height: 3rem;
 }
+
+/*------------------- SECTION SECTION ------------------*/
+
+.second-section .container {
+  width: min(169.6rem, 90%);
+  margin: 0 auto;
+  display: flex;
+  gap: 4.2rem;
+}
+
+.second-section .metrica {
+  width: 100%;
+}
+
+.second-section h2 {
+  font-size: 6rem;
+  line-height: 7.2rem;
+  color: var(--principal-color);
+  margin-bottom: 1.2rem;
+}
+
+.second-section span {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: var(--title-color);
+  font-weight: 600;
+}
+
+.second-section p {
+  font-size: 1.6rem;
+  color: var(--text-color);
+  line-height: 2.4rem;
+  margin-top: .8rem;
+}
