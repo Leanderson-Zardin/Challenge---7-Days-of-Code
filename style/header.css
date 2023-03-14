@@ -71,15 +71,12 @@ ul {
   flex-direction: column;
   justify-content: center;
   gap: .5rem;
-  position: absolute;
-  right: 8%;
-  top: 4%;
+  /* position: absolute; */
   z-index: 10;
-  cursor: pointer;
 }
 
 .toggle.active {
-  right: 11%;
+  margin-right: 1.8rem;
 }
 
 #toggle.active .menu-hidden {
