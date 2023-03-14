@@ -71,9 +71,35 @@ ul {
   flex-direction: column;
   justify-content: center;
   gap: .5rem;
+  position: absolute;
+  right: 8%;
+  top: 4%;
+  z-index: 10;
+  cursor: pointer;
 }
-.toggle.active .line{
-  background: lightblue;
+
+.toggle.active {
+  right: 11%;
+}
+
+#toggle.active .menu-hidden {
+  position: fixed;
+  inset: 0;
+  background: white;
+  display: block;
+  z-index: -1;
+}
+
+#toggle.active .menu-hidden ul {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#toggle.active .menu-hidden ul a {
+  font-size: 2.5rem;
 }
 
 .line{
@@ -81,4 +107,18 @@ ul {
   height: .5rem;
   background: var(--principal-color);
   border-radius: .5rem;
+}
+
+.toggle .line {
+  transition: all .15s;
+}
+
+.toggle.active .line:nth-child(1){
+  transform: translateY(5px) rotate(45deg);
+}
+.toggle.active .line:nth-child(2){
+  display: none;
+}
+.toggle.active .line:nth-child(3){
+  transform: translateY(-5px) rotate(-45deg);
 }
