@@ -75,10 +75,6 @@ ul {
   z-index: 10;
 }
 
-.toggle.active {
-  margin-right: 1.8rem;
-}
-
 #toggle.active .menu-hidden {
   position: fixed;
   inset: 0;
