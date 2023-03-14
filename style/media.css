@@ -16,12 +16,14 @@
 
   .fifth-section .container h2 {
     font-size: 3rem;
+    line-height: 4rem;
   }
 }
 
 @media (max-width: 815px) {
   .fifth-section .container h2 {
     font-size: 2.5rem;
+    line-height: 3.5rem;
   }
 }
 
@@ -32,5 +34,22 @@
 
   .first-section .container p {
     font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 548px) {
+  footer button {
+    margin-top: 1.6rem;
+  }
+}
+
+@media (max-width: 450px) {
+  footer .container h2 {
+    font-size: 3rem;
+  }
+
+  .fifth-section .container h2 {
+    font-size: 2rem;
+    line-height: 3rem;
   }
 }
