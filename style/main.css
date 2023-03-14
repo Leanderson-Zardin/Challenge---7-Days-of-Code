@@ -110,7 +110,7 @@
   margin-bottom: 6.4rem;
 }
 
-/*------------------- SECTION SECTION ------------------*/
+/*------------------- FOURTH SECTION ------------------*/
 
 .fourth-section .container {
   width: min(124.8rem, 90%);
@@ -151,4 +151,52 @@
 
 .fourth-section .card + h3 {
   margin-top: 6.4rem;
+}
+
+/*------------------- FOURTH SECTION ------------------*/
+
+.fifth-section .container {
+  width: min(169.6rem, 90%);
+  margin: 0 auto 9.6rem;
+  text-align: center;
+  background: var(--background-brown);
+  padding: 6.4rem;
+  border-radius: 1.6rem;
+}
+
+.fifth-section span {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: var(--principal-color);
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+  display: block;
+}
+
+.fifth-section h2 {
+  font-size: 3.6rem;
+  line-height: 4.4rem;
+  font-weight: 500;
+  width: min(115rem, 100%);
+  margin: 0 auto 3.2rem;
+}
+
+.fifth-section figure img{
+  width: 5.6rem;
+  height: 5.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.fifth-section h4 {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+  color: var(--title-color);
+  margin-bottom: .4rem;
+}
+
+.fifth-section p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: var(--text-color);
 }
